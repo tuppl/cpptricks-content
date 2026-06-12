@@ -1,6 +1,4 @@
 ---
-publishedDate: 2026-06-15
-modifiedDate: 2026-06-15
 title: Structured Binding
 description: Unpack pairs, tuples, and aggregates cleanly.
 tags: [modern, stl, c++17]
@@ -8,7 +6,7 @@ example: |
   auto [x, y] = std::pair{1, 2};
 authors:
   - name: Dan
-    githubUser: dennuguyen
+    github: dennuguyen
 ---
 
 Unpacks compound values into named variables with an initialiser.
