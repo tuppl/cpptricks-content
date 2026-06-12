@@ -11,15 +11,15 @@ This is the public repository for the content featured on [cpptricks.com](https:
 ## Git Practices
 
 Use these prefixes:
-- `docs:` Adding and modifying documentation files such that the essence of its contents have changed. This includes frontmatter e.g.
+- `docs:` Adding and modifying documentation files such that the meaningful content has been changed. This includes modification to frontmatter.
     ```
     docs: create std::string_view doc
     ```
-- `fix:` Improving formatting, improving clarity, and fixing typos e.g.
+- `fix:` Anything to do with modification to documentation files without changing its meaningful content such as improving formatting, improving clarity, and fixing typos.
     ```
     fix: typo in structured-binding.md
     ```
-- `chore:` Updating the LICENSE or README. Restructuring files and folders e.g.
+- `chore:` Updating the LICENSE or README, or restructuring files and folders.
     ```
     chore: add git practices to README
     ```
