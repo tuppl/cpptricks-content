@@ -9,9 +9,6 @@ example: |
 authors:
   - name: Dan
     githubUser: dennuguyen
-references:
-  - label: cppreference
-    link: https://en.cppreference.com/cpp/language/structured_binding
 ---
 
 Unpacks compound values into named variables with an initialiser.
@@ -31,3 +28,7 @@ for (auto& [key, val] : my_map) {
 
 > [!WARNING]
 > C++ bindings are **copies** by default. Use `auto&` in loops to avoid copying every element. Use `const auto&` when mutation isn't needed.
+
+## References
+
+- [cpprefrence: structured binding](https://en.cppreference.com/cpp/language/structured_binding)
