@@ -1,7 +1,7 @@
 ---
 title: Structured Binding
 description: Unpack pairs, tuples, and aggregates cleanly.
-tags: [modern, stl, c++17]
+tags: [cpp17, beginner, syntactic sugar]
 example: |
   auto [x, y] = std::pair{1, 2};
 authors:
@@ -20,7 +20,7 @@ auto [name, age] = std::tuple{"alice", 30};
 Getting key and value from a map:
 ```cpp
 for (auto& [key, val] : my_map) {
-    std::cout << key << ": " << val << '\n';
+  std::cout << key << ": " << val << '\n';
 }
 ```
 
