@@ -3,9 +3,9 @@ title: Functors
 description: Objects that are callable like functions and with internal state.
 tags: [beginner]
 example: |
-  class Functor;
-  Functor fn;
-  fn();
+  Doubler obj(1);
+  obj();  // value = 2
+  obj();  // value = 4
 authors:
   - name: Dan
     github: dennuguyen
@@ -24,6 +24,8 @@ Functors are implemented by overloading the function call operator.
 ```cpp
 struct Doubler {
   int value;
+
+  Doubler(int v) : value(v) {}
 
   void operator()() {
     value *= 2;
