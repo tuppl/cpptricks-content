@@ -1,7 +1,9 @@
 ---
 title: Boolalpha
 description: Print booleans as "true"/"false" strings instead of the default 1/0.
-tags: [cpp98, beginner]
+language: cpp98
+difficulty: beginner
+tags: [io]
 example: |
   std::cout << std::boolalpha
     << true << "\n"

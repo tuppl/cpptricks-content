@@ -1,7 +1,9 @@
 ---
 title: Structured Binding
 description: Unpack pairs, tuples, and aggregates cleanly.
-tags: [cpp17, beginner, syntactic sugar]
+language: cpp17
+difficulty: beginner
+tags: [syntactic sugar]
 example: |
   auto [x, y] = std::pair{1, 2};
 authors:

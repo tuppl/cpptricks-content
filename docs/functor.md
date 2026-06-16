@@ -1,7 +1,9 @@
 ---
 title: Functors
 description: Objects that are callable like functions and with internal state.
-tags: [beginner]
+language: cpp
+difficulty: beginner
+tags: [classes]
 example: |
   Doubler obj(1);
   obj();  // value = 2
