@@ -22,6 +22,7 @@ Variables and literals can be printed to `std::cout` using the stream insertion 
 ```cpp
 int var = 123;
 std::cout << var;
+std::cout << 456;
 ```
 
 Printing can also be chained:
