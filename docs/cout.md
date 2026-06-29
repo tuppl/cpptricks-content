@@ -1,5 +1,5 @@
 ---
-title: cout
+title: Character Output
 description: Print to standard output using I/O streams.
 language: cpp98
 difficulty: beginner
