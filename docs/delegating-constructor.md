@@ -5,9 +5,11 @@ language: cpp11
 difficulty: beginner
 tags: [classes]
 example: |
-  class MyClass {
-    MyClass(int x) : MyClass(x, 'y') {}
-    MyClass(int x, char y) : x(x), y(y) {}
+  class Foo {
+    Foo(int x)
+      : Foo(x, 'y') {}
+    Foo(int x, char y)
+      : x(x), y(y) {}
   };
 authors:
   - name: Dan
