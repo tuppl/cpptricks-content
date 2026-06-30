@@ -27,6 +27,9 @@ private:
 };
 ```
 
+> [!NOTE]  
+> Member variables are initialised in the order they appear in the class definition - not the initialiser list.
+
 As opposed to assigning members in the constructor body, initialiser lists have a performance benefit by directly constructing members with their final value. This avoids redundant default-construction then assignment and is especially true for non-trivial types like `std::string`.
 
 Initialiser lists are required for constant and reference member variables to be direct-initialised (with a value) as they cannot be assigned in the constructor body:
