@@ -6,7 +6,7 @@ difficulty: beginner
 tags: [classes]
 example: |
   class Foo {
-    Foo(int arg): val(arg) {}
+    Foo(int arg) : val(arg) {}
     int val;
   };
 authors:
