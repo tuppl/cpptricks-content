@@ -1,7 +1,7 @@
 ---
 title: Structured Binding
 description: Unpack pairs, tuples, and aggregates cleanly.
-language: cpp17
+language: cpp
 difficulty: beginner
 tags: [syntactic sugar]
 example: |
@@ -10,6 +10,8 @@ authors:
   - name: Dan
     github: dennuguyen
 ---
+
+::::version{std="C++17"}
 
 Unpacks compound values into named variables with an initialiser.
 
@@ -28,6 +30,8 @@ for (auto& [key, val] : my_map) {
 
 > [!WARNING]
 > C++ bindings are **copies** by default. Use `auto&` to avoid copying every element. Use `const auto&` when mutation isn't needed.
+
+::::
 
 ## References
 

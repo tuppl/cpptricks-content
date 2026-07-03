@@ -1,7 +1,7 @@
 ---
 title: Range-Based For Loops
 description: Loop over containers without writing indices or iterators.
-language: cpp11
+language: cpp
 difficulty: beginner
 tags: [syntactic sugar]
 example: |
@@ -12,6 +12,8 @@ authors:
   - name: Dan
     github: dennuguyen
 ---
+
+::::version{std="C++11"}
 
 Consider a container like so:
 ```cpp
@@ -46,6 +48,8 @@ for (auto const& element : cont) {
   std::cout << element << "\n";
 }
 ```
+
+::::
 
 ## References
 

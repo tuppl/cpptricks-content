@@ -1,7 +1,7 @@
 ---
 title: Character Input
 description: Write to standard input using I/O streams.
-language: cpp98
+language: cpp
 difficulty: beginner
 tags: [streams, io]
 example: |
@@ -11,6 +11,8 @@ authors:
   - name: Dan
     github: dennuguyen
 ---
+
+::::version{std="C++98"}
 
 Capture user input from the standard input device to `std::cin` stream object as a type-safe alternative to C's `scanf`. `std::cin` is available from the `iostream` library:
 
@@ -59,6 +61,8 @@ std::cin >> var >> ch >> num;
 > `>>` also doesn't require whitespace between different types and will stops if the > character that doesn't fit the target type.
 > 
 > `10a3.14` works because `10` stops at `a` (non-digit),  `a` is a single character, and `3.14` is read as a float.
+
+::::
 
 ## References
 

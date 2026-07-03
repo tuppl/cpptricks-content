@@ -1,7 +1,7 @@
 ---
 title: Delegating Constructor
 description: Reduce constructor boilerplate by delegating to another constructor in the same class.
-language: cpp11
+language: cpp
 difficulty: beginner
 tags: [classes]
 example: |
@@ -15,6 +15,8 @@ authors:
   - name: Dan
     github: dennuguyen
 ---
+
+::::version{std="C++11"}
 
 A constructor can call another constructor in the initialiser list which heavily reduces writing boilerplate:
 ```cpp
@@ -39,6 +41,8 @@ You cannot use constructor delegation together with member initialisation:
 ```cpp
 MyClass(int x) : MyClass(x), y('y') {}
 ```
+
+::::
 
 ## References
 

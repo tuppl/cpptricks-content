@@ -1,7 +1,7 @@
 ---
 title: Character Output
 description: Print to standard output using I/O streams.
-language: cpp98
+language: cpp
 difficulty: beginner
 tags: [streams, io]
 example: |
@@ -11,6 +11,8 @@ authors:
   - name: Dan
     github: dennuguyen
 ---
+
+::::version{std="C++98"}
 
 Print using stream-based output devices as a type-safe alternative to C's `printf`. The stream to print to output is `std::cout` from the `iostream` library:
 
@@ -51,6 +53,8 @@ std::cout << obj;
 ```cpp
 std::cout << var << std::endl;
 ```
+
+::::
 
 ## References
 

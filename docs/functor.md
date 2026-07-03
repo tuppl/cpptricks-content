@@ -13,6 +13,8 @@ authors:
     github: dennuguyen
 ---
 
+::::version{std="C++98"}
+
 Functors (function objects) are classes that are callable like functions and can hold state between calls. The below example shows an `obj` doubling in value with every function call: 
 
 ```cpp
@@ -34,6 +36,8 @@ struct Doubler {
   }
 };
 ```
+
+::::
 
 ## References
 

@@ -14,6 +14,8 @@ authors:
     github: dennuguyen
 ---
 
+::::version{std="C++11"}
+
 Member initialiser lists allow initialisation of class member variables before the constructor body runs. They are written after the `:` character:
 
 ```cpp
@@ -43,6 +45,8 @@ private:
   const int cnst;
 };
 ```
+
+::::
 
 ## References
 

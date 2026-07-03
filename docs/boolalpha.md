@@ -1,7 +1,7 @@
 ---
 title: Boolalpha
 description: Print booleans as "true"/"false" strings instead of the default 1/0.
-language: cpp98
+language: cpp
 difficulty: beginner
 tags: [io]
 example: |
@@ -12,6 +12,8 @@ authors:
   - name: Dan
     github: dennuguyen
 ---
+
+::::version{std="C++98"}
 
 `std::boolalpha` is an I/O manipulator which prints boolean expressions as "true" and "false" strings instead of the usual 1/0.
 
@@ -24,6 +26,8 @@ int main() {
     << false << "\n";
 }
 ```
+
+::::
 
 ## References
 

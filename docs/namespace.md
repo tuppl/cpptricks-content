@@ -1,7 +1,7 @@
 ---
 title: Namespace
 description: Groups identifiers to a named scope to prevent name collisions.
-language: cpp98
+language: cpp
 difficulty: beginner
 tags: []
 example: |
@@ -11,6 +11,8 @@ authors:
   - name: Dan
     github: dennuguyen
 ---
+
+::::version{std="C++98"}
 
 Namespaces act as a scope/grouping around declarations (named types, variables, functions, etc.) to prevent name collisions and help organise code.
 
@@ -57,6 +59,8 @@ foo();
 
 > [!WARNING]
 > Avoid `using` namespaces (in header files especially) since this pollutes the global scope which can cause name collisions.
+
+::::
 
 ## References
 

@@ -15,6 +15,8 @@ authors:
     github: dennuguyen
 ---
 
+::::version{std="C++98"}
+
 Access specifiers define the accessibility of class members. There are 3 specifiers:
 - `public`: members accessible outside the class.
 - `private`: members only accessible within the class and friends.
@@ -67,6 +69,8 @@ Classes and structs are identical except for their default access specifier.
   class ClassDerived : Base;
   struct StructDerived : Base;
   ```
+
+::::
 
 ## References
 
