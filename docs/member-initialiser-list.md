@@ -2,6 +2,7 @@
 title: Member Initialiser List
 description: Initialise class member variables before the constructor body runs.
 language: cpp
+versions: [C++11]
 difficulty: beginner
 tags: [classes]
 example: |

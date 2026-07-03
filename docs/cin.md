@@ -2,6 +2,7 @@
 title: Character Input
 description: Write to standard input using I/O streams.
 language: cpp
+versions: [C++98]
 difficulty: beginner
 tags: [streams, io]
 example: |

@@ -2,6 +2,7 @@
 title: Character Output
 description: Print to standard output using I/O streams.
 language: cpp
+versions: [C++98]
 difficulty: beginner
 tags: [streams, io]
 example: |

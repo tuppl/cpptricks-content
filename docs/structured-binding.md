@@ -2,6 +2,7 @@
 title: Structured Binding
 description: Unpack pairs, tuples, and aggregates cleanly.
 language: cpp
+versions: [C++17]
 difficulty: beginner
 tags: [syntactic sugar]
 example: |

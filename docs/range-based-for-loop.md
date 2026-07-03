@@ -2,6 +2,7 @@
 title: Range-Based For Loops
 description: Loop over containers without writing indices or iterators.
 language: cpp
+versions: [C++11]
 difficulty: beginner
 tags: [syntactic sugar]
 example: |

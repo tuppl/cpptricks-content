@@ -2,6 +2,7 @@
 title: Boolalpha
 description: Print booleans as "true"/"false" strings instead of the default 1/0.
 language: cpp
+versions: [C++98]
 difficulty: beginner
 tags: [io]
 example: |

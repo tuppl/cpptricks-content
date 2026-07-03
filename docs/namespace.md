@@ -2,6 +2,7 @@
 title: Namespace
 description: Groups identifiers to a named scope to prevent name collisions.
 language: cpp
+versions: [C++98]
 difficulty: beginner
 tags: []
 example: |
