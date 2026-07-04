@@ -65,4 +65,4 @@ foo();
 
 ## References
 
-- [cppreference: namespaces](https://en.cppreference.com/cpp/language/namespace)
+- [cppreference: namespace](https://en.cppreference.com/cpp/language/namespace)

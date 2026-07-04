@@ -1,5 +1,5 @@
 ---
-title: Range-Based For Loops
+title: Range-Based For Loop
 description: Loop over containers without writing indices or iterators.
 language: cpp
 versions: [C++11]

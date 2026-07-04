@@ -75,4 +75,4 @@ Classes and structs are identical except for their default access specifier.
 
 ## References
 
-- [cpprefrence: access specifiers](https://en.cppreference.com/cpp/language/access)
+- [cpprefrence: access specifier](https://en.cppreference.com/cpp/language/access)

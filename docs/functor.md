@@ -1,5 +1,5 @@
 ---
-title: Functors
+title: Functor
 description: Objects that are callable like functions and with internal state.
 language: cpp
 versions: [C++98]
@@ -42,4 +42,4 @@ struct Doubler {
 
 ## References
 
-- [cppreference: function objects](https://cppreference.com/cpp/utility/functional)
+- [cppreference: function object](https://cppreference.com/cpp/utility/functional)
