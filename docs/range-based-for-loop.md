@@ -4,7 +4,7 @@ description: Loop over containers without writing indices or iterators.
 language: cpp
 versions: [C++11]
 difficulty: beginner
-tags: [syntactic sugar]
+tags: [syntactic sugar, loop]
 example: |
   for (auto& element : container) {
     // Do something with element.
