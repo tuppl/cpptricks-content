@@ -71,7 +71,7 @@ virtual void f() override {
 }
 ```
 
-> [!WARNING]
+> [!CAUTION]
 > A compiler error occurs if a method marked `override` tries to override a non-virtual function.
 
 Virtual functions can be marked `final` to declare that the function cannot be overridden in a derived class:
