@@ -16,7 +16,7 @@ authors:
     github: dennuguyen
 ---
 
-::::version{std="C++11"}
+:::version{std="C++11"}
 
 Enums allow meaningful names to be used instead of magic numbers. The first enum has the value `0` with each subsequent enum incrementing by `1`:
 ```cpp
@@ -74,7 +74,7 @@ Implicit conversions from scoped enum values to integral types are not allowed:
 // int s = status;                 // error
 int s = static_cast<int>(status);  // ok
 ```
-
+:::
 :::version{std="C++20"}
 `using enum` statements allow scoped enums to be used without typing its full scope.
 ```cpp
@@ -86,7 +86,6 @@ switch (status) {
 }
 ```
 :::
-::::
 
 ## References
 
