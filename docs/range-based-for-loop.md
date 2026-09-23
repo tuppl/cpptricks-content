@@ -2,7 +2,7 @@
 title: Range-Based For Loop
 description: Loop over containers without writing indices or iterators.
 language: cpp
-versions: [C++11]
+versions: [C++11, C++20]
 difficulty: beginner
 tags: [syntactic sugar, loop]
 example: |
@@ -14,7 +14,7 @@ authors:
     github: dennuguyen
 ---
 
-::::version{std="C++11"}
+:::version{std="C++11"}
 
 Consider a container like so:
 ```cpp
@@ -45,13 +45,25 @@ for (auto& element : cont) {
 
 You can get elements as a const if you do not need mutation:
 ```cpp
-for (auto const& element : cont) {
+for (const auto& element : cont) {
   std::cout << element << "\n";
 }
 ```
 
-::::
+:::
+:::version{std="C++20"}
+
+An operation can be lazy-evaluated on a view (viewable range) in the for loop using the pipe operator (`|`):
+```cpp
+#include <ranges>
+for (auto i : std::views::all(cont) | std::views::take(2)) {
+  std::cout << i << "\n";
+}
+```
+
+:::
 
 ## References
 
 - [cpprefrence: range-based for loop](https://en.cppreference.com/cpp/language/range-for)
+- [cppreference: ranges](https://cppreference.com/cpp/ranges)

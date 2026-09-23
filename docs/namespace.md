@@ -2,7 +2,7 @@
 title: Namespace
 description: Groups identifiers to a named scope to prevent name collisions.
 language: cpp
-versions: [C++98]
+versions: [C++98, C++17]
 difficulty: beginner
 tags: []
 example: |
@@ -55,6 +55,18 @@ foo();
 
 > [!WARNING]
 > Avoid `using` namespaces (in header files especially) since this pollutes the global scope which can cause name collisions.
+
+::::
+::::version{std="C++17"}
+
+Nested namespaces can be defined with the shorthand `::` syntax:
+```cpp
+namespace GroupC::GroupD {
+  int car = 3;
+}
+
+GroupC::GroupD::car;
+```
 
 ::::
 

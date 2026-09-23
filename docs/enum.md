@@ -2,7 +2,7 @@
 title: Enumeration
 description: User-defined data type to give integer constants meaningful names.
 language: cpp
-versions: [C++11, C++20]
+versions: [C++98, C++11, C++20]
 difficulty: beginner
 tags: [enum]
 example: |
@@ -16,7 +16,7 @@ authors:
     github: dennuguyen
 ---
 
-:::version{std="C++11"}
+:::version{std="C++98"}
 
 Enums allow meaningful names to be used instead of magic numbers. The first enum has the value `0` with each subsequent enum incrementing by `1`:
 ```cpp
@@ -43,6 +43,9 @@ enum HttpStatus {
   NotImplemented  // 501
 };
 ```
+
+:::
+:::version{std="C++11"}
 
 The enum's default underlying type is an `int`. This underlying type can be changed to any integral type that can represent all the enum values:
 ```cpp

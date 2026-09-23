@@ -2,7 +2,7 @@
 title: Member Initialiser List
 description: Initialise class member variables before the constructor body runs.
 language: cpp
-versions: [C++11]
+versions: [C++98]
 difficulty: beginner
 tags: [classes]
 example: |
@@ -15,7 +15,7 @@ authors:
     github: dennuguyen
 ---
 
-::::version{std="C++11"}
+::::version{std="C++98"}
 
 Member initialiser lists allow initialisation of class member variables before the constructor body runs. They are written after the `:` character:
 
