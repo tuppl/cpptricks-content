@@ -50,7 +50,7 @@ for (size_t i = 0; i < cont.size(); i++) {
 The iteration range and increment size can be changed:
 ```cpp
 std::vector<int> cont = {0, 1, 2, 3, 4};
-for (auto it = cont.begin() + 1; it != cont.end() - 1; it += 2) {
+for (auto it = cont.begin() + 1; it < cont.end() - 1; it += 2) {
   std::cout << *it << "\n";
 }
 ```

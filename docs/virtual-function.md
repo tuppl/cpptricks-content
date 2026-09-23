@@ -38,18 +38,22 @@ public:
 
 Virtual function calls from a derived object via a base class pointer or reference will invoke the overridden function:
 ```cpp
-Base b;
-Derived d;
-
 // Pass-by-reference.
 void foo(Base& b) { b.f(); }
-foo(b);  // Prints "base".
-foo(d);  // Prints "derived".
 
 // Pass-by-pointer.
 void foo(Base* b) { b->f(); }
-foo(&b);  // Prints "base".
-foo(&d);  // Prints "derived".
+
+int main() {
+  Base b;
+  Derived d;
+
+  foo(b);   // Prints "base".
+  foo(d);   // Prints "derived".
+
+  foo(&b);  // Prints "base".
+  foo(&d);  // Prints "derived".
+}
 ```
 
 > [!NOTE]

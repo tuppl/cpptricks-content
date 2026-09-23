@@ -67,8 +67,8 @@ Classes and structs are identical except for their default access specifier.
 - Classes are by default `private` and structs by default `public`.
 - Class inheritance is by default `private`  and structs by default `public`.
   ```cpp
-  class ClassDerived : Base;
-  struct StructDerived : Base;
+  class ClassDerived : Base {};
+  struct StructDerived : Base {};
   ```
 
 ::::

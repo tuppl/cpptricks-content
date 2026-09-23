@@ -33,7 +33,7 @@ public:
 class Derived : public Base {
 public:
   Derived() : Base(0) {}
-  Derived(int x) : Base(val) {}
+  Derived(int x) : Base(x) {}
 };
 ```
 
