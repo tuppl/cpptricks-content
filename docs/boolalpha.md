@@ -32,4 +32,4 @@ int main() {
 
 ## References
 
-- [cppreferences: boolalpha](https://en.cppreference.com/cpp/io/manip/boolalpha)
+- [cppreference: boolalpha](https://en.cppreference.com/cpp/io/manip/boolalpha)

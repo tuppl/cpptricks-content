@@ -89,4 +89,4 @@ switch (status) {
 
 ## References
 
-- [cppreferences: enum](https://en.cppreference.com/cpp/language/enum)
+- [cppreference: enum](https://en.cppreference.com/cpp/language/enum)

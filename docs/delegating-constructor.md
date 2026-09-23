@@ -47,4 +47,4 @@ MyClass(int x) : MyClass(x), y('y') {}
 
 ## References
 
-- [cppreferences: delegating constructor](https://en.cppreference.com/cpp/language/constructor#Delegating_constructor)
+- [cppreference: delegating constructor](https://en.cppreference.com/cpp/language/constructor#Delegating_constructor)
