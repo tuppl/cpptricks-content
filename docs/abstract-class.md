@@ -16,7 +16,7 @@ authors:
 
 ::::version{std="C++98"}
 
-Abstract classes are classes that cannot be instantiated directly but instead intended to be used as a base class for inheritance. Any class that defines or inherits a class with at least a pure virtual function is abstract. Pure virtual functions are virtual functions with the pure-specifier (`= 0`):
+Abstract classes are classes that cannot be instantiated directly but instead intended to be used as a base class for inheritance. Any class that defines or inherits at least one function whose final overrider is pure virtual is abstract. Pure virtual functions are virtual functions with the pure-specifier (`= 0`):
 ```cpp
 class Base {
   virtual void f() = 0;
@@ -30,9 +30,10 @@ class Derived : public Base {
 };
 ```
 
-Pure virtual destructors can be used if the base class must be abstract and has no appropriate function to defer to the subclass to implement. Pure virtual destructors must still have a class definition provided since the destructor-call is mandatory for clean-up:
+Pure virtual destructors can be used if the base class must be abstract and has no appropriate function to defer to the subclass to implement. Pure virtual destructors must still have a definition provided since the destructor-call is mandatory for clean-up:
 ```cpp
 class Base {
+public:
   virtual ~Base() = 0;
 };
 
@@ -40,19 +41,30 @@ class Base {
 Base::~Base() {}
 
 class Derived : public Base {
+public:
   virtual ~Derived() {}
 };
 ```
 
-Derived classes cannot override functions to become pure:
+Derived classes can override functions to become pure thus making the derived class abstract:
 ```cpp
 class Base {
   virtual void f() {}
 };
 
 class Derived : public Base {
-  virtual void f() = 0;  // ERROR.
+  virtual void f() = 0;
 };
+
+class DerivedAgain : public Derived {
+  virtual void f() {}
+};
+
+int main() {
+  Base b;           // OK.
+  Derived d1;       // ERROR.
+  DerivedAgain d2;  // OK.
+}
 ```
 
 ::::
