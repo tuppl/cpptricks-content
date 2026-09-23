@@ -20,8 +20,8 @@ Namespaces act as a scope/grouping around declarations (named types, variables, 
 To create a namespace:
 ```cpp
 namespace GroupA {
-    int var = 1;
-    void foo() {}
+  int var = 1;
+  void foo() {}
 }
 ```
 
@@ -34,17 +34,12 @@ GroupA::foo();
 Namespaces can be nested:
 ```cpp
 namespace GroupA {
-    namespace GroupB {
-        int bar = 2;
-    }
-}
-
-namespace GroupC::GroupD {
-    int car = 3;
+  namespace GroupB {
+    int bar = 2;
+  }
 }
 
 GroupA::GroupB::bar;
-GroupC::GroupD::car;
 ```
 
 You can bring the members of a namespace into global scope with the `using` directive:
