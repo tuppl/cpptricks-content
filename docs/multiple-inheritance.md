@@ -26,7 +26,7 @@ class Child : public Base1, public Base2 {};
 > [!CAUTION]
 > Inheriting the same class twice directly is ill-formed:
 > ```cpp
-> class Child : public Base1, public Base1 {};  // Error.
+> class Child : public Base1, public Base1 {};  // ERROR.
 > ```
 
 ### Order
@@ -46,7 +46,7 @@ struct Base2 { int data; };
 struct Child : public Base1, public Base2 {};
 
 Child c;
-// c.data;  // Error: ambiguous.
+// c.data;  // ERROR: ambiguous.
 c.Base1::data;
 c.Base2::data;
 ```
@@ -61,7 +61,7 @@ struct Parent2 : public Grandparent {};
 struct Child : public Parent1, public Parent2 {};
 
 Child c;
-c.data;  // Error: ambiguous.
+c.data;  // ERROR: ambiguous.
 ```
 The `c` object has two separate grandparent instances thus it is ambiguous if `data` is resolved through `Parent1` or `Parent2`. This is the "dreaded diamond" problem:
 ```

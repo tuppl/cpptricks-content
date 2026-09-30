@@ -63,7 +63,7 @@ Const iterators can be used to prevent modifications during looping:
 ```cpp
 for (auto it = cont.cbegin(); it != cont.cend(); ++it) {
   std::cout << *it << "\n";
-  // *it = 123;  // Error.
+  // *it = 123;  // ERROR.
 }
 ```
 
