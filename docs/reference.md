@@ -30,7 +30,7 @@ std::cout << var << "\n";  // 2
 
 References must be initialised when declared:
 ```cpp
-int& ref;  // ERROR
+int& ref;  // ERROR.
 ```
 
 References cannot rebound to another variable:
@@ -46,7 +46,7 @@ A `const` reference can read but not modify the variable it refers to:
 ```cpp
 int var = 1;
 const int& ref = var;
-ref = 2;  // ERROR
+ref = 2;  // ERROR.
 ```
 
 References are most often used as function parameters so the function can modify the caller's variable, or to avoid copying large objects:

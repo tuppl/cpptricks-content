@@ -7,7 +7,7 @@ difficulty: beginner
 tags: [types]
 example: |
   const int size = 100;
-  size = 200;  // ERROR
+  size = 200;  // ERROR.
 authors:
   - name: Dan
     github: dennuguyen
@@ -18,12 +18,12 @@ authors:
 A variable declared with the `const` qualifier cannot be modified after it is initialised:
 ```cpp
 const int size = 100;
-size = 200;  // ERROR
+size = 200;  // ERROR.
 ```
 
 Const variables must be initialised at declaration since they cannot be assigned later:
 ```cpp
-const int size;  // ERROR
+const int size;  // ERROR.
 ```
 
 `const` can be written on either side of the type:
@@ -46,7 +46,7 @@ const int null_id = 0;
 void reset(int* p) {}
 
 reset(NULL_ID);  // Compiles but passes a null pointer.
-reset(null_id);  // ERROR
+reset(null_id);  // ERROR.
 ```
 
 A macro is a textual substitution which will replace every occurrence of its name after the macro definition:
@@ -55,7 +55,7 @@ A macro is a textual substitution which will replace every occurrence of its nam
 const int size = 100;
 
 void resize() {
-  int SIZE = 50;  // ERROR: expands to "int 100 = 50;"
+  int SIZE = 50;  // ERROR: expands to "int 100 = 50;".
   int size = 50;  // OK: shadows the global size.
 }
 ```
