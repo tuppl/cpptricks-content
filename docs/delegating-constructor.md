@@ -4,7 +4,7 @@ description: Reduce constructor boilerplate by delegating to another constructor
 language: cpp
 versions: [C++11]
 difficulty: beginner
-tags: [classes]
+tags: [classes, constructors]
 example: |
   class Foo {
     Foo(int x)

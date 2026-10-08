@@ -4,7 +4,7 @@ description: Initialise class member variables before the constructor body runs.
 language: cpp
 versions: [C++98]
 difficulty: beginner
-tags: [classes]
+tags: [classes, constructors]
 example: |
   class Foo {
     Foo(int arg) : val(arg) {}
