@@ -12,7 +12,7 @@ example: |
     double radius;
   };
 
-  Circle c = 2.0;  // Implicitly converts 2.0 to Circle.
+  Circle c = 2.0;  // Implicit conversion.
 authors:
   - name: Dan
     github: dennuguyen
