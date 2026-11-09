@@ -71,4 +71,4 @@ int main() {
 
 ## References
 
-- [cpprefrence: abstract class](https://en.cppreference.com/cpp/language/abstract_class)
+- [cppreference: abstract class](https://en.cppreference.com/cpp/language/abstract_class)
