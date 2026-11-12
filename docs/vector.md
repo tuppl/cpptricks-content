@@ -2,7 +2,6 @@
 title: Vector
 description: Dynamic array of the same type.
 language: cpp
-versions: [C++98, C++11]
 difficulty: beginner
 tags: [stl]
 example: |

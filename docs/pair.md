@@ -2,7 +2,6 @@
 title: Pair
 description: Holds two values of possibly different types.
 language: cpp
-versions: [C++98, C++11]
 difficulty: beginner
 tags: [stl]
 example: |

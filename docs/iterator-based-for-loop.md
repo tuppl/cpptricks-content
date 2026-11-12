@@ -2,7 +2,6 @@
 title: Iterator-Based For Loop
 description: Loop over containers with STL iterators.
 language: cpp
-versions: [C++11]
 difficulty: beginner
 tags: [iterator, loop]
 example: |

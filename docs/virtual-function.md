@@ -2,7 +2,6 @@
 title: Virtual Function
 description: Member functions that can be overridden in derived classes.
 language: cpp
-versions: [C++98, C++11]
 difficulty: beginner
 tags: [classes, polymorphism]
 example: |

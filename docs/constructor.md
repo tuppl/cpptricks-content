@@ -2,7 +2,6 @@
 title: Constructor
 description: Member function that runs when an object is created.
 language: cpp
-versions: [C++98, C++11]
 difficulty: beginner
 tags: [classes, constructors]
 example: |

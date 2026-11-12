@@ -2,7 +2,6 @@
 title: Default Constructor
 description: Constructor that can be called with no arguments.
 language: cpp
-versions: [C++98, C++11]
 difficulty: beginner
 tags: [classes, constructors]
 example: |

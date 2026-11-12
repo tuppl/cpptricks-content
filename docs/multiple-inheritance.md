@@ -2,7 +2,6 @@
 title: Multiple Inheritance
 description: Subclass extending from multiple base classes.
 language: cpp
-versions: [C++98]
 difficulty: intermediate
 tags: [classes]
 example: |

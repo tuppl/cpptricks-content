@@ -2,7 +2,6 @@
 title: Reference
 description: Alias for an existing variable.
 language: cpp
-versions: [C++98]
 difficulty: beginner
 tags: [memory]
 example: |

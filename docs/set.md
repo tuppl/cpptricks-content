@@ -2,7 +2,6 @@
 title: Set
 description: Sorted collection of unique elements.
 language: cpp
-versions: [C++98, C++11, C++20]
 difficulty: beginner
 tags: [stl]
 example: |

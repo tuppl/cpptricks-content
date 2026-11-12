@@ -2,7 +2,6 @@
 title: Auto
 description: Automatic type deduction of an object or expression at compile time.
 language: cpp
-versions: [C++11]
 difficulty: beginner
 tags: [types]
 example: |

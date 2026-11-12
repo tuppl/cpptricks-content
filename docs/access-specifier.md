@@ -2,7 +2,6 @@
 title: Access Specifier
 description: Set class member accessibility.
 language: cpp
-versions: [C++98]
 difficulty: beginner
 tags: [classes]
 example: |

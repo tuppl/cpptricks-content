@@ -2,7 +2,6 @@
 title: Const Variable
 description: Declare a variable whose value cannot change after initialisation.
 language: cpp
-versions: [C++98]
 difficulty: beginner
 tags: [types]
 example: |

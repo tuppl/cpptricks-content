@@ -2,7 +2,6 @@
 title: Tie
 description: Unpack a tuple or pair into existing variables.
 language: cpp
-versions: [C++11]
 difficulty: beginner
 tags: [stl]
 example: |

@@ -2,7 +2,6 @@
 title: Abstract Class
 description: Class that cannot be instantiated but can be used as a base class for inheritance.
 language: cpp
-versions: [C++98]
 difficulty: beginner
 tags: [classes]
 example: |

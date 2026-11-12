@@ -2,7 +2,6 @@
 title: Implicit Type Conversion
 description: Automatic conversion between types performed by the compiler.
 language: cpp
-versions: [C++98, C++11]
 difficulty: beginner
 tags: [types]
 example: |

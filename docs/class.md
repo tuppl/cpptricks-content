@@ -2,7 +2,6 @@
 title: Class
 description: User-defined type that groups data and functions.
 language: cpp
-versions: [C++98]
 difficulty: beginner
 tags: [classes]
 example: |

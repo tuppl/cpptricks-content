@@ -2,7 +2,6 @@
 title: New and Delete
 description: Allocate and free memory at runtime.
 language: cpp
-versions: [C++98, C++11]
 difficulty: beginner
 tags: [memory]
 example: |

@@ -2,7 +2,6 @@
 title: Dynamic Cast
 description: Safely convert a base class pointer or reference to a derived class.
 language: cpp
-versions: [C++98]
 difficulty: beginner
 tags: [types, polymorphism]
 example: |

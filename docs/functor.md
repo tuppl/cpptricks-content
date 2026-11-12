@@ -2,7 +2,6 @@
 title: Functor
 description: Objects that are callable like functions and with internal state.
 language: cpp
-versions: [C++98]
 difficulty: beginner
 tags: [classes]
 example: |

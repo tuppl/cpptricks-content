@@ -2,7 +2,6 @@
 title: Array
 description: Fixed-size array of the same type.
 language: cpp
-versions: [C++11]
 difficulty: beginner
 tags: [stl]
 example: |

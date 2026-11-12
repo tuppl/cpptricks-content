@@ -2,7 +2,6 @@
 title: Converting Constructor
 description: Constructor that implicitly converts a value into the class type.
 language: cpp
-versions: [C++98, C++11]
 difficulty: beginner
 tags: [classes, constructors, types]
 example: |

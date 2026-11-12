@@ -2,7 +2,6 @@
 title: Virtual Destructor
 description: Destroy a derived object correctly through a base class pointer.
 language: cpp
-versions: [C++98]
 difficulty: beginner
 tags: [classes, polymorphism, memory]
 example: |

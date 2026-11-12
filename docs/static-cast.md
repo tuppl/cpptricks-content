@@ -2,7 +2,6 @@
 title: Static Cast
 description: Explicitly convert a value to another type at compile time.
 language: cpp
-versions: [C++98]
 difficulty: beginner
 tags: [types]
 example: |

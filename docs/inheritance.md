@@ -2,7 +2,6 @@
 title: Inheritance
 description: Create a new class using another class as a base to extend from.
 language: cpp
-versions: [C++98, C++11]
 difficulty: beginner
 tags: [classes]
 example: |

@@ -2,7 +2,6 @@
 title: Function Overloading
 description: Define multiple functions with the same name but different parameters.
 language: cpp
-versions: [C++98]
 difficulty: beginner
 tags: [functions]
 example: |

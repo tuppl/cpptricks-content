@@ -2,7 +2,6 @@
 title: Map
 description: Sorted collection of key-value pairs with unique keys.
 language: cpp
-versions: [C++98, C++11, C++17, C++20]
 difficulty: beginner
 tags: [stl]
 example: |

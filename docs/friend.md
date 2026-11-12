@@ -2,7 +2,6 @@
 title: Friend
 description: Give a function or class access to private members.
 language: cpp
-versions: [C++98]
 difficulty: beginner
 tags: [classes]
 example: |

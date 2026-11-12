@@ -2,7 +2,6 @@
 title: Destructor
 description: Member function that runs when an object is destroyed.
 language: cpp
-versions: [C++98]
 difficulty: beginner
 tags: [classes, memory]
 example: |

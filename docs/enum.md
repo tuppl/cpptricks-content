@@ -2,7 +2,6 @@
 title: Enumeration
 description: User-defined data type to give integer constants meaningful names.
 language: cpp
-versions: [C++98, C++11, C++20]
 difficulty: beginner
 tags: [enum]
 example: |

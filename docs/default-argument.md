@@ -2,7 +2,6 @@
 title: Default Argument
 description: A function parameter uses a default value when the caller omits it.
 language: cpp
-versions: [C++98]
 difficulty: beginner
 tags: [functions]
 example: |

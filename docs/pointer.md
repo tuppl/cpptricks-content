@@ -2,7 +2,6 @@
 title: Pointer
 description: Variable that stores the memory address of another variable.
 language: cpp
-versions: [C++98, C++11]
 difficulty: beginner
 tags: [memory]
 example: |

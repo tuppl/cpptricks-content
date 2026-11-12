@@ -2,7 +2,6 @@
 title: Static Member
 description: Class member shared by all objects.
 language: cpp
-versions: [C++98, C++11, C++17]
 difficulty: beginner
 tags: [classes]
 example: |

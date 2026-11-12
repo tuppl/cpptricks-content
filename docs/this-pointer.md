@@ -2,7 +2,6 @@
 title: This Pointer
 description: Pointer to the current object.
 language: cpp
-versions: [C++98]
 difficulty: beginner
 tags: [classes, memory]
 example: |

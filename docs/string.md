@@ -2,7 +2,6 @@
 title: String
 description: Sequence of characters.
 language: cpp
-versions: [C++98, C++11]
 difficulty: beginner
 tags: [stl]
 example: |

@@ -2,7 +2,6 @@
 title: Tuple
 description: Holds a fixed number of values of possibly different types.
 language: cpp
-versions: [C++11]
 difficulty: beginner
 tags: [stl]
 example: |

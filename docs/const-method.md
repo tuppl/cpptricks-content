@@ -2,7 +2,6 @@
 title: Const Method
 description: Member function that cannot modify the object it is called on.
 language: cpp
-versions: [C++98]
 difficulty: beginner
 tags: [classes]
 example: |

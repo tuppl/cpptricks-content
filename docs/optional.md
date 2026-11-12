@@ -2,7 +2,6 @@
 title: Optional
 description: Hold a value or nothing.
 language: cpp
-versions: [C++17, C++23]
 difficulty: beginner
 tags: [stl, errors]
 example: |

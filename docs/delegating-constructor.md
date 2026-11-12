@@ -2,7 +2,6 @@
 title: Delegating Constructor
 description: Reduce constructor boilerplate by delegating to another constructor in the same class.
 language: cpp
-versions: [C++11]
 difficulty: beginner
 tags: [classes, constructors]
 example: |

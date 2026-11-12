@@ -2,7 +2,6 @@
 title: Lambda
 description: Unnamed function object that can capture variables from the surrounding scope.
 language: cpp
-versions: [C++11, C++17, C++20, C++23]
 difficulty: beginner
 tags: [functions, syntactic sugar]
 example: |
