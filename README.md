@@ -8,6 +8,13 @@ This is the public repository for the content featured on [cpptricks.com](https:
 - Code examples must be compilable and runnable (unless you are demonstrating an error).
 - Avoid long and opinionated prose.
 
+## Validation
+
+Validate your post's frontmatter and content with:
+```
+bun scripts/validate.ts
+```
+
 ## Git Practices
 
 Use these prefixes:
