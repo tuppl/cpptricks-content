@@ -40,6 +40,12 @@ if (it != ages.end()) {
 }
 ```
 
+The key can't be modified through an iterator, since changing the key can break the sorted order:
+```cpp
+it->first = "Alicia";  // ERROR.
+it->second = 31;       // OK.
+```
+
 `count()` returns 1 if the key exists and 0 otherwise:
 ```cpp
 ages.count("Alice");  // 1

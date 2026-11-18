@@ -59,8 +59,12 @@ s.erase(1);
 s.count(1);  // 0
 ```
 
-> [!NOTE]
-> Elements in a set cannot be modified in place, since changing one could break the sorted order. Erase the old value and insert the new one instead.
+Elements can't be modified through an iterator, since changing the element can break the sorted order. Erase the old value and insert the new one instead:
+```cpp
+*s.find(3) = 5;  // ERROR.
+s.erase(3);
+s.insert(5);
+```
 
 ::::
 ::::version{std="C++11"}
