@@ -36,7 +36,7 @@ In some examples, a `?` means an element with an unspecified value.
 
 ::::
 
-## Non-modifying
+### Non-modifying
 
 Let:
 ```cpp
@@ -97,7 +97,7 @@ std::for_each_n(v.begin(), 2, print);  // Prints 3, 1.
 
 ::::
 
-## Modifying
+### Modifying
 
 Let:
 ```cpp
@@ -201,7 +201,7 @@ std::shift_right(v.begin(), v.end(), 2);  // v is {?, ?, 3, 1, 4, 1}.
 
 ::::
 
-## Partitioning
+### Partitioning
 
 Let:
 ```cpp
@@ -241,7 +241,7 @@ std::partition_point(v.begin(), v.end(), is_even);   // Points to v[3].
 
 ::::
 
-## Sorting
+### Sorting
 
 Let:
 ```cpp
@@ -281,7 +281,7 @@ std::is_sorted_until(v.begin(), v.end());  // Points to v[1].
 
 ::::
 
-## Binary search
+### Binary search
 
 Let:
 ```cpp
@@ -306,7 +306,7 @@ std::equal_range(s.begin(), s.end(), 1);  // Pair of s[0] and s[2].
 
 ::::
 
-## Merging and sets
+### Merging and sets
 
 Let:
 ```cpp
@@ -344,7 +344,7 @@ std::set_union(a.begin(), a.end(), b.begin(), b.end(), out.begin());  // Writes 
 
 ::::
 
-## Heap
+### Heap
 
 
 Let:
@@ -387,7 +387,7 @@ std::is_heap_until(v.begin(), v.end());  // Points to v[2].
 
 ::::
 
-## Minimum and maximum
+### Minimum and maximum
 
 Let:
 ```cpp
@@ -439,7 +439,7 @@ std::lexicographical_compare_three_way(v.begin(), v.end(), w.begin(), w.end()); 
 
 ::::
 
-## Permutations
+### Permutations
 
 Let:
 ```cpp
@@ -473,7 +473,7 @@ std::is_permutation(v.begin(), v.end(), s.begin());  // true
 
 ::::
 
-## Numeric
+### Numeric
 
 Let:
 ```cpp

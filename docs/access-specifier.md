@@ -36,7 +36,7 @@ private:
 };
 ```
 
-## Inheritance
+### Inheritance
 
 Class inheritance can also have access specifiers which redefines the accessibility of inherited members. The rule-of-thumb is *member accessibility is capped at the access specifier of inheritance*.
 
@@ -60,7 +60,7 @@ class PrivateDerived : private Base {
 };
 ```
 
-## Class vs Struct
+### Class vs Struct
 
 Classes and structs are identical except for their default access specifier.
 - Classes are by default `private` and structs by default `public`.

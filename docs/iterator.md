@@ -48,7 +48,7 @@ for (std::vector<int>::iterator it = v.begin(); it != v.end(); ++it) {
 }
 ```
 
-## Const Iterator
+### Const Iterator
 
 A `const_iterator` can read but not modify the element it points to. The iterator itself can still move:
 ```cpp
@@ -65,7 +65,7 @@ std::vector<int>::const_iterator a = cv.begin();  // OK.
 std::vector<int>::iterator b = cv.begin();        // ERROR.
 ```
 
-## Iterator Categories
+### Iterator Categories
 
 Iterators are grouped into categories by supported operations:
 
@@ -99,7 +99,7 @@ std::istream_iterator<int> it2 = it1;
 *it2;  // 3
 ```
 
-## Invalidation
+### Invalidation
 
 Iterators become invalidated when the element they point to is moved or removed. Using an invalidated iterator is undefined behaviour:
 ```cpp
